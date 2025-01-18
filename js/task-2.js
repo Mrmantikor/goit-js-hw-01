@@ -10,33 +10,32 @@ console.log(getShippingMessage("Sweden", 100, 20)); // "Shipping to Sweden will 
 
 // Задача 2. Доставка товару
 // #region Task Сonditions:
-Виконуй це завдання у файлі task-2.js
 
-Оголоси функцію getShippingMessage, яка очікує три параметри, значення яких будуть задаватися під
-час її виклику: • country — перший параметр, рядок, що містить країну доставки • price — другий
-параметр, число, що містить загальну вартість товару • deliveryFee — третій параметр, число, що
-містить вартість доставки товару
+// Виконуй це завдання у файлі task-2.js
 
-Доповни код функції так, щоб вона повертала рядок з повідомленням про доставку товару в країну
-користувача: "Shipping to <country> will cost <totalPrice> credits", де: • <country> — це країни
-доставки • <totalPrice> — це загальна вартість замовлення, що включає вартість товару і його
-доставки
+// Оголоси функцію getShippingMessage, яка очікує три параметри, значення яких будуть задаватися під
+// час її виклику: • country — перший параметр, рядок, що містить країну доставки • price — другий
+// параметр, число, що містить загальну вартість товару • deliveryFee — третій параметр, число, що
+// містить вартість доставки товару
 
-Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У
-консоль будуть виведені результати її роботи.
+// Доповни код функції так, щоб вона повертала рядок з повідомленням про доставку товару в країну
+// користувача: "Shipping to <country> will cost <totalPrice> credits", де: • <country> — це країни
+// доставки • <totalPrice> — це загальна вартість замовлення, що включає вартість товару і його доставки
 
-console.log(getShippingMessage("Australia", 120, 50)); // "Shipping to Australia will cost 170
-credits" console.log(getShippingMessage("Germany", 80, 20)); // "Shipping to Germany will cost 100
-credits" console.log(getShippingMessage("Sweden", 100, 20)); // "Shipping to Sweden will cost 120
-credits"
+// Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У
+// консоль будуть виведені результати її роботи.
 
-Залиш цей код для перевірки ментором.
+// console.log(getShippingMessage("Australia", 120, 50)); // "Shipping to Australia will cost 170
+// credits" console.log(getShippingMessage("Germany", 80, 20)); // "Shipping to Germany will cost 100
+// credits" console.log(getShippingMessage("Sweden", 100, 20)); // "Shipping to Sweden will cost 120 credits"
 
-На що буде звертати увагу ментор при перевірці:
+// Залиш цей код для перевірки ментором.
 
-Оголошена функція getShippingMessage(country, price, deliveryFee) Виклик
-getShippingMessage("Australia", 120, 50) повертає "Shipping to Australia will cost 170 credits"
-Виклик getShippingMessage("Germany", 80, 20) повертає "Shipping to Germany will cost 100 credits"
-Виклик getShippingMessage("Sweden", 100, 20) повертає "Shipping to Sweden will cost 120 credits"
-Виклик getShippingMessage з будь якими-валідними аргументами повертає правильне значення
+// На що буде звертати увагу ментор при перевірці:
+// Оголошена функція getShippingMessage(country, price, deliveryFee) Виклик
+// getShippingMessage("Australia", 120, 50) повертає "Shipping to Australia will cost 170 credits"
+// Виклик getShippingMessage("Germany", 80, 20) повертає "Shipping to Germany will cost 100 credits"
+// Виклик getShippingMessage("Sweden", 100, 20) повертає "Shipping to Sweden will cost 120 credits"
+// Виклик getShippingMessage з будь якими-валідними аргументами повертає правильне значення
+
 // #endregion
